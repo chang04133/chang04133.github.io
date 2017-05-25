@@ -1,0 +1,43 @@
+/* this is a comment in an internal style sheet */
+
+
+/* let's put all the root tags here */
+
+/* here we will remove the underline... */
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    color:#ff0000;
+}
+
+h2 {
+    font-size:1em;
+}
+
+a {
+    text-decoration: none;
+    background-color: #888888;
+    padding:10px;
+}
+
+/* and here we will draw an underline when you mouse over */
+a:hover {
+    text-decoration:underline;
+    color:#ff0000;
+}
+
+/* classes can go here */
+#profile-image {
+    float:left;
+    margin:10px;
+    background: url('andrewsiemer.jpg');
+    background-size:auto 500px;
+    height:500px;
+    width:500px;
+}
+
+#profile-information {
+    margin:10px;
+}
