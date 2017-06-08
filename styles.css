@@ -1,0 +1,191 @@
+/*shared*/
+
+::-webkit-scrollbar {
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+ul .navbar-nav {
+				display: inline-block;
+        text-align: center;
+    }
+
+.main .carousel, .main .carousel-item{
+height: 400px;
+}
+
+.main .carousel{
+	 background-image: url('ahri.jpg');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+.main .carousel-item{
+justify-content: center;
+}
+
+#league{
+	width: 100%;
+	height: 100%;
+}
+
+
+.myCustomJumbotron {
+	margin-bottom: 0px;
+}
+
+.image{
+	background: url("https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/promo/Renegade-Promotile-new.jpg.image.500.jpg" id="card-pictures">
+    <div class="content-1");
+}
+
+/*header */
+
+header .navbar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+    font-size: 12px;
+}
+
+.navbar-brand {}
+
+
+/*desktop */
+
+@media (min-width: 992px) {
+		#navbarCollapse{
+			display: inline;
+		}
+
+    ul .navbar-nav.mr-auto: last-child {
+        padding-left: 100px;
+    }
+    i[class^="fa fa-"]{
+    	font-size: 12px;
+    }
+    li.nav-item:nth-child(7) {
+        padding-left: 10%;
+    }
+}
+
+/*mobile*/
+
+@media (max-width: 992px) {
+
+	/*main*/
+	.main .container-fluid{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		height: 100%;
+		background-color: black;
+		color: white;
+	}
+	.main .container-fluid h4{
+		padding-top: 50px;
+	}
+
+	.main .container-fluid h1{
+		font-size: 59px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 50px;
+	}
+
+	.main .container-fluid p{
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 30px;
+	}
+	.main .container-fluid button{
+		margin-bottom: 20px;
+		width: 180px;
+	}
+
+	.main .container-fluid .btn-secondary{
+		margin-top: 100px;
+		width: 500px;
+	}
+
+	.tablet-jumbotron{
+	margin: 0px;
+	padding: 16px 16px 0px 16px;
+	background-color: #d1d1d1;
+	}
+
+
+	.container-1{
+		display:none;
+	}
+
+	.tablet-row{
+		overflow: auto;
+		white-space: nowrap;
+	}
+
+	.img-fluid{
+		width: 300px;
+	}
+	.img-2-1{
+		float: left;
+		width: 115%;
+		height: 115%;
+	}
+
+	.jumbotron-2 {
+		background-color: white;
+		display:flex;
+		
+	}
+
+	.car-description{
+		padding-left: 10%;
+	}
+	
+	.car-title{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.car-msrp{
+		font-size: 10px;
+		font-style: italic;
+	}
+	
+	.car-price{
+		font-weight: bold;
+	}
+
+	.jumbotron-3{
+
+	}
+
+	#kelly{
+		float:left;
+		height:130px;
+	}
+
+	.container-4{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: black;
+		height: 80px;
+	}
+
+	.container-5{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		background-color: #212121;
+		height:250px;
+	}
+
+	#container-5-row{
+		padding-bottom: 20px;
+		padding-left: 60px;
+	}
+}
